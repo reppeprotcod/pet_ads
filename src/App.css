@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+html, .pag {
+  background: linear-gradient(to bottom, #4e6459, #f1eace);
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head{
+  background-color: #232e2d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.w-100{
+  
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.mt-5{
+  padding-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav.nav-pills .nav-link.active{
+  background-color: #232e2e;
+}
+
+.nav.nav-pills .nav-link{
+  color: #232e2e;
+}
+
+.sighT{
+  color: #232e2e;
+}
+
+.btn-dark{
+  background: #293636 !important;
+}
+
+.addNoteForm{
+  height: auto;
+}
+
+.cardHome{
+  width: 80%;
+  background: #eef1e1 !important;
+  color: #232e2d;
+}
+
+.bottomBtn {
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+.cardCol{
+  color: #232e2d;
+  background: #eef1e1 !important;
+}
+
+.dropdown-toggle{
+  background: #293636 !important;
 }
